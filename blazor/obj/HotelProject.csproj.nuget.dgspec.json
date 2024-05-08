@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sondrel.ness/HotelProject/blazor/HotelProject.csproj": {}
+    "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/blazor/HotelProject.csproj": {}
   },
   "projects": {
-    "/Users/sondrel.ness/HotelProject/blazor/HotelProject.csproj": {
+    "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/blazor/HotelProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sondrel.ness/HotelProject/blazor/HotelProject.csproj",
+        "projectUniqueName": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/blazor/HotelProject.csproj",
         "projectName": "HotelProject",
-        "projectPath": "/Users/sondrel.ness/HotelProject/blazor/HotelProject.csproj",
-        "packagesPath": "/Users/sondrel.ness/.nuget/packages/",
-        "outputPath": "/Users/sondrel.ness/HotelProject/blazor/obj/",
+        "projectPath": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/blazor/HotelProject.csproj",
+        "packagesPath": "/Users/jobjornrokenesmyren/.nuget/packages/",
+        "outputPath": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/blazor/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sondrel.ness/.nuget/NuGet/NuGet.Config"
+          "/Users/jobjornrokenesmyren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

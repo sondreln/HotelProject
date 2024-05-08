@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoomCleaners.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="Welcome to RoomCleaners"
+                FontSize="Large"
+                HorizontalOptions="Center" />
+            <Label
+                Text="Select your role"
+                FontSize="Large"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="MaintainerBtn"
+                Text="Maintainer" 
+                SemanticProperties.Hint="Shows maintenance tasks"
+                Clicked="OnRoleSelected"
+                HorizontalOptions="Fill" />
+                <Button
+                x:Name="CleanerBtn"
+                Text="Cleaner" 
+                SemanticProperties.Hint="Shows cleaning tasks"
+                Clicked="OnRoleSelected"
+                HorizontalOptions="Fill" />
+            <Button
+                x:Name="ServiceBtn"
+                Text="Service" 
+                SemanticProperties.Hint="Shows service tasks"
+                Clicked="OnRoleSelected"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
