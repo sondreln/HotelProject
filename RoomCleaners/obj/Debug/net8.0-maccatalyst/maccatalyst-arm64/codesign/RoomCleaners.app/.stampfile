@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/Entitlements.xcent /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/RoomCleaners.app

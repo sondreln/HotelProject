@@ -14,7 +14,7 @@
         "outputPath": "/Users/sondrel.ness/HotelProject/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sondrel.ness/.nuget/NuGet/NuGet.Config"
+          "/Users/jobjornrokenesmyren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

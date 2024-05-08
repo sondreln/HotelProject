@@ -2302,7 +2302,7 @@
     ]
   },
   "packageFolders": {
-    "/Users/sondrel.ness/.nuget/packages/": {}
+    "/Users/jobjornrokenesmyren/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2314,7 +2314,7 @@
       "outputPath": "/Users/sondrel.ness/HotelProject/Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sondrel.ness/.nuget/NuGet/NuGet.Config"
+        "/Users/jobjornrokenesmyren/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
