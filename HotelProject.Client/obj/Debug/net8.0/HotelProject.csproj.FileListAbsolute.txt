@@ -204,3 +204,4 @@
 /Users/sondrel.ness/HotelProject/blazor/obj/Debug/net8.0/HotelProject.pdb
 /Users/sondrel.ness/HotelProject/blazor/obj/Debug/net8.0/HotelProject.genruntimeconfig.cache
 /Users/sondrel.ness/HotelProject/blazor/obj/Debug/net8.0/ref/HotelProject.dll
+/Users/sondrel.ness/HotelProject/blazor/obj/Debug/net8.0/HotelProject.sourcelink.json
