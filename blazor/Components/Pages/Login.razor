@@ -1,0 +1,45 @@
+@page "/login"
+@using System.ComponentModel.DataAnnotations
+
+<h3>Login</h3>
+
+<EditForm Model="@loginModel" OnValidSubmit="@HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <form @formname="hotellogin">
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <InputText id="username" class="form-control" @bind-Value="loginModel.Username" />
+    </div>
+
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <InputText id="password" type="password" class="form-control" @bind-Value="loginModel.Password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+
+    private void HandleLogin()
+    {
+        // Handle the login logic here
+        Console.WriteLine($"User {loginModel.Username} is trying to log in with password {loginModel.Password}.");
+    }
+
+    public class LoginModel
+    {
+        [Required]
+        [StringLength(100, ErrorMessage = "Username is too long.")]
+        public string Username { get; set; }
+
+        [Required]
+        [StringLength(100, ErrorMessage = "Password is too long.")]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
+    }
+}
