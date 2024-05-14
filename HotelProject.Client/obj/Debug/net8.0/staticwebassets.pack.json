@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "/Users/sondrel.ness/HotelProject/blazor/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css",
+      "Id": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css",
       "PackagePath": "staticwebassets/HotelProject.bundle.scp.css"
     },
     {
-      "Id": "/Users/sondrel.ness/HotelProject/blazor/wwwroot/app.css",
+      "Id": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/sondrel.ness/HotelProject/blazor/wwwroot/bootstrap/bootstrap.min.css",
+      "Id": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/Users/sondrel.ness/HotelProject/blazor/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Id": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/sondrel.ness/HotelProject/blazor/wwwroot/favicon.png",
+      "Id": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
