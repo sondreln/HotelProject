@@ -1,0 +1,98 @@
+﻿@page "/"
+@using HotelProject.Data
+@using HotelProject.Service
+@rendermode InteractiveServer
+@inject RoomService RoomService
+
+<PageTitle>Booking</PageTitle>
+
+<div style="flex-direction: column; display: flex; gap: 10px;">
+    <label for="startDate">Start Date:</label>
+    <input type="date" id="startDate" @bind="startDate"/>
+
+    <label for="endDate">End Date:</label>
+    <input type="date" id="endDate" @bind="endDate" />
+
+    <label for="roomType">Room Type:</label>
+    <select @bind="roomType">
+        <option value="">Alle</option>
+        @foreach (var type in roomTypes)
+        {
+            <option value="@type">@type</option>
+        }
+    </select>
+
+    <label for="people">Number of People:</label>
+    <input type="number" id="people" @bind="numberOfPeople" />
+
+    <button @onclick="SearchRooms">Search</button>
+</div>
+
+@if (searchResults != null)
+{
+    if (searchResults.Count == 0)
+    {
+        <p>No available rooms match your criteria.</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Room ID</th>
+                    <th>Room Number</th>
+                    <th>Antall Senger</th>
+                    <th>Room Type</th>
+                    <th>Price per Night</th>
+                    <th>Book rom</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var room in searchResults)
+                {
+                    <tr>
+                        <td>@room.Id</td>
+                        <td>@room.Romnummer</td>
+                        <td>@room.Capacity</td>
+                        <td>@room.RomKvalitet</td>
+                        <td>@room.PrisPerNatt,-</td>
+                        <td><button @onclick="@(() => BookRoom(room.Romnummer))">Book</button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+
+@code {
+    private DateTime startDate = DateTime.UtcNow.Date;
+    private DateTime endDate = DateTime.UtcNow.Date.AddDays(1);
+    private string roomType;
+    private int numberOfPeople;
+    private List<Rooms> searchResults;
+    private List<string> roomTypes = new List<string>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        roomTypes = await RoomService.GetRoomTypesAsync();
+    }
+
+    private async Task SearchRooms()
+    {
+        searchResults = await RoomService.SearchRoomsAsync(startDate, endDate, roomType, numberOfPeople);
+    }
+
+    private async Task BookRoom(int roomId)
+    {
+        var success = await RoomService.BookRoomAsync(roomId, startDate, endDate);
+        if (success)
+        {
+            await SearchRooms();
+            Console.WriteLine("Booking successful.");
+        }
+        else
+        {
+            Console.WriteLine("Booking failed. Please try again.");
+        }
+    }
+}

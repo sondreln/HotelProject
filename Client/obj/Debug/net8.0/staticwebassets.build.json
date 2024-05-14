@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+  "Hash": "ssqqZsC4mj0++cnN5KIwktahpLfddsanZL2kbFmmwiU=",
+=======
+  "Hash": "TxyBcgBBTahENRZ5AKoo5TvVC7YytZoNNkRZyz6V3Cs=",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+  "Source": "HotelProject",
+  "BasePath": "_content/HotelProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HotelProject/wwwroot",
+      "Source": "HotelProject",
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
+=======
+      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "BasePath": "_content/HotelProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/bundle/",
+=======
+      "Identity": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "BasePath": "_content/HotelProject",
+      "RelativePath": "HotelProject.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+      "OriginalItemSpec": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css"
+    },
+    {
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/projectbundle/",
+=======
+      "OriginalItemSpec": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css"
+    },
+    {
+      "Identity": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "BasePath": "_content/HotelProject",
+      "RelativePath": "HotelProject.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+      "OriginalItemSpec": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/app.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
+=======
+      "OriginalItemSpec": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/app.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "BasePath": "_content/HotelProject",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/bootstrap/bootstrap.min.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
+=======
+      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/bootstrap/bootstrap.min.css",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "BasePath": "_content/HotelProject",
+      "RelativePath": "bootstrap/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+    },
+    {
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/bootstrap/bootstrap.min.css.map",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
+=======
+      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/bootstrap/bootstrap.min.css.map",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "BasePath": "_content/HotelProject",
+      "RelativePath": "bootstrap/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+    },
+    {
+<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/favicon.png",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
+=======
+      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/favicon.png",
+      "SourceId": "HotelProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
+>>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "BasePath": "_content/HotelProject",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    }
+  ]
+}
