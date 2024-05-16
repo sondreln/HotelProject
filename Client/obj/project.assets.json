@@ -2307,11 +2307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sondrel.ness/HotelProject/Client/HotelProject.csproj",
+      "projectUniqueName": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/HotelProject.csproj",
       "projectName": "HotelProject",
-      "projectPath": "/Users/sondrel.ness/HotelProject/Client/HotelProject.csproj",
-      "packagesPath": "/Users/sondrel.ness/.nuget/packages/",
-      "outputPath": "/Users/sondrel.ness/HotelProject/Client/obj/",
+      "projectPath": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/HotelProject.csproj",
+      "packagesPath": "/Users/jobjornrokenesmyren/.nuget/packages/",
+      "outputPath": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jobjornrokenesmyren/.nuget/NuGet/NuGet.Config"

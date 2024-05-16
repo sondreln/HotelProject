@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c/vQdvp8aSRNjYsPAjNSu2+8iz0mR4wxsbURO7V/sHPlGWedlfXGLrjrHEoAb1c05nRiE5wDISd5zQeI6yfQjw==",
+  "dgSpecHash": "z6lUteHmgWlHll0sU3YmF0C9flVL4dPDjPFrS/zt1zBdVDeHokCbHAm06EZewiBVApjHbrBorbBoBACuXi7cEQ==",
   "success": true,
-  "projectFilePath": "/Users/sondrel.ness/HotelProject/Client/HotelProject.csproj",
+  "projectFilePath": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/HotelProject.csproj",
   "expectedPackageFiles": [
     "/Users/jobjornrokenesmyren/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/jobjornrokenesmyren/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

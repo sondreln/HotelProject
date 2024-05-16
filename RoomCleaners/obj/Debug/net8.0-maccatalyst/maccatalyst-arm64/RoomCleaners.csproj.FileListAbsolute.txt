@@ -792,7 +792,6 @@
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/_ProcessedBundleResourcesPath.items
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/_ProcessedContentPath.items
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/RoomCleaners.csproj.AssemblyReference.cache
-/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/resourcestamps/HotelClassLibrary.stamp
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/RoomCleaners.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/RoomCleaners.AssemblyInfoInputs.cache
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/RoomCleaners.AssemblyInfo.cs
@@ -805,3 +804,4 @@
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/RoomCleaners.pdb
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/RoomCleaners.genruntimeconfig.cache
 /Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/RoomCleaners.dll
+/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/resourcestamps/HotelClassLibrary.stamp

@@ -11,16 +11,6 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-    
-    <ShellContent
-        Title="Task List"
-        ContentTemplate="{DataTemplate local:TaskListPage}"
-        Route="TaskListPage" /> 
-    
-    <ShellContent
-        Title="Task Details"
-        ContentTemplate="{DataTemplate local:TaskDetailPage}"
-        Route="TaskDetailPage" />
-
+ 
 
 </Shell>

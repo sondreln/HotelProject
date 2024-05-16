@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelMaui/RoomCleaners</SourceProjectPath>
+      <SourceProjectPath>/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/RoomCleaners</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

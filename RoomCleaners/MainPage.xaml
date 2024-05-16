@@ -1,39 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RoomCleaners.MainPage">
+             x:Class="RoomCleaners.MainPage"
+             x:Name="mainPage"
+             BackgroundColor="#1E1E1E">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Label
-                Text="Welcome to RoomCleaners"
-                FontSize="Large"
-                HorizontalOptions="Center" />
-            <Label
-                Text="Select your role"
-                FontSize="Large"
-                HorizontalOptions="Center" />
-            <Button
-                x:Name="MaintainerBtn"
-                Text="Maintainer" 
-                SemanticProperties.Hint="Shows maintenance tasks"
-                Clicked="OnRoleSelected"
-                HorizontalOptions="Fill" />
-                <Button
-                x:Name="CleanerBtn"
-                Text="Cleaner" 
-                SemanticProperties.Hint="Shows cleaning tasks"
-                Clicked="OnRoleSelected"
-                HorizontalOptions="Fill" />
-            <Button
-                x:Name="ServiceBtn"
-                Text="Service" 
-                SemanticProperties.Hint="Shows service tasks"
-                Clicked="OnRoleSelected"
-                HorizontalOptions="Fill" />
+        <VerticalStackLayout Padding="30,10" Margin="10,10">
+            <Label Text="Welcome to RoomCleaners" FontSize="Large" HorizontalOptions="Center" TextColor="White" Margin="0,0,0,20"/>
+            <Label Text="Select your role" FontSize="Large" HorizontalOptions="Center" TextColor="White" Margin="0,0,0,20"/>
+        
+            <Button x:Name="MaintainerBtn" Text="Maintainer" SemanticProperties.Hint="Shows maintenance tasks" HorizontalOptions="Fill" Margin="0,0,0,10"
+                    BackgroundColor="#3498db" TextColor="White" CornerRadius="10"/>
+            <Button x:Name="CleanerBtn" Text="Cleaner" SemanticProperties.Hint="Shows cleaning tasks" HorizontalOptions="Fill" Margin="0,0,0,10"
+                    BackgroundColor="#2ecc71" TextColor="White" CornerRadius="10"/>
+            <Button x:Name="ServiceBtn" Text="Service" SemanticProperties.Hint="Shows service tasks" HorizontalOptions="Fill" Margin="0,0,0,20"
+                    BackgroundColor="#e74c3c" TextColor="White" CornerRadius="10"/>
+        
+            <Label x:Name="ResultText" FontSize="Large" HorizontalOptions="Center" TextColor="White" Margin="0,0,0,40"/>
+        
+            <StackLayout>
+                <ListView x:Name="TaskList" BackgroundColor="#252525" ItemsSource="{Binding Tasks, Source={x:Reference mainPage}}" SelectionMode="None" RowHeight="140" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Padding="20" Margin="0,10,0,10" BackgroundColor="#ffffff" CornerRadius="10" HasShadow="True">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <StackLayout Grid.Column="0" Padding="10,0">
+                                            <Label Text="{Binding Role}" FontSize="24" FontAttributes="Bold" TextColor="#000"/>
+                                            <Label Text="{Binding Description}" FontSize="18" TextColor="#333"/>
+                                            <Label Text="{Binding Status}" FontSize="18" TextColor="#333"/>
+                                        </StackLayout>
+                                        <Button x:Name="CompleteBtn" Clicked="CompleteTask" Grid.Column="1" Text="Complete" Command="{Binding Source={x:Reference mainPage}, Path=BindingContext.CompleteTask}" CommandParameter="{Binding}" 
+                                                BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Margin="10,0,0,0"/>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

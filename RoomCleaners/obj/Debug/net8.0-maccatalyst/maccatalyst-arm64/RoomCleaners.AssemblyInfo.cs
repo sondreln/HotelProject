@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoomCleaners")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a9ef468077f1458e910f66caa6431c1bd2406d87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3cef1bf8c382cdb2117ba34074d726d818aba426")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoomCleaners")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoomCleaners")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,4 @@
-namespace HotelProject.Data
+namespace HotelClassLibrary.Data
 {
     public class Customer
     {
