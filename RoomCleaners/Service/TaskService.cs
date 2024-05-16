@@ -18,7 +18,7 @@ namespace RoomCleaners.Service
 
         public async Task<List<HotelTask>> GetTasksByDepartment(string department)
         {
-            return await _context.HotelTask.Where(t => t.Role == department).ToListAsync();
+            return await _context.HotelTask.Where(t => t.Role == department).Where(t => t.Status != "Completed").ToListAsync();
         }
 
         public async Task UpdateTaskStatus(int taskId, string status)

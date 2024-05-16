@@ -22,7 +22,7 @@ namespace HotelProject.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("HotelProject.Data.Booking", b =>
+            modelBuilder.Entity("HotelClassLibrary.Data.Bookings", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,6 +36,9 @@ namespace HotelProject.Migrations
                     b.Property<DateTime>("BookedTo")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<bool>("CheckedIn")
+                        .HasColumnType("boolean");
+
                     b.Property<int>("RoomId")
                         .HasColumnType("integer");
 
@@ -44,7 +47,7 @@ namespace HotelProject.Migrations
                     b.ToTable("Bookings");
                 });
 
-            modelBuilder.Entity("HotelProject.Data.Customer", b =>
+            modelBuilder.Entity("HotelClassLibrary.Data.Rooms", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -52,57 +55,16 @@ namespace HotelProject.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Customer");
-                });
-
-            modelBuilder.Entity("HotelProject.Data.HotelTask", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Description")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Role")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("HotelTask");
-                });
-
-            modelBuilder.Entity("HotelProject.Data.Rooms", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Capacity")
+                    b.Property<int>("AntallSenger")
                         .HasColumnType("integer");
 
                     b.Property<bool>("ErLedig")
                         .HasColumnType("boolean");
 
-                    b.Property<decimal>("PrisPerNatt")
-                        .HasColumnType("numeric");
+                    b.Property<int>("PrisPerNatt")
+                        .HasColumnType("integer");
 
                     b.Property<string>("RomKvalitet")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("Romnummer")

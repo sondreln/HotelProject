@@ -17,8 +17,7 @@ namespace Reseptionistas.Data
         {
             options.UseNpgsql( "Host=ider-database.westeurope.cloudapp.azure.com; Database=h666949; Port=5432; Username=h666949; Password=pass");
         }
-
-        public DbSet<Customer> Customer { get; set; } 
+ 
         public DbSet<Rooms> Rooms { get; set; }
         public DbSet<HotelTask> HotelTask { get; set; }
 

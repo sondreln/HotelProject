@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-  "Hash": "ssqqZsC4mj0++cnN5KIwktahpLfddsanZL2kbFmmwiU=",
-=======
-  "Hash": "TxyBcgBBTahENRZ5AKoo5TvVC7YytZoNNkRZyz6V3Cs=",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+  "Hash": "mJXFGTslY4DQA+k7sc2vWN6wQQmIjT0A/NI8Un2Tqfk=",
   "Source": "HotelProject",
   "BasePath": "_content/HotelProject",
   "Mode": "Default",
@@ -14,28 +10,17 @@
     {
       "Name": "HotelProject/wwwroot",
       "Source": "HotelProject",
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
-=======
-      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/",
       "BasePath": "_content/HotelProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css",
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css",
       "SourceId": "HotelProject",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/bundle/",
-=======
-      "Identity": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css",
-      "SourceId": "HotelProject",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/HotelProject",
       "RelativePath": "HotelProject.styles.css",
       "AssetKind": "All",
@@ -48,23 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-      "OriginalItemSpec": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css"
+      "OriginalItemSpec": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css"
     },
     {
-      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css",
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css",
       "SourceId": "HotelProject",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/projectbundle/",
-=======
-      "OriginalItemSpec": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/bundle/HotelProject.styles.css"
-    },
-    {
-      "Identity": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css",
-      "SourceId": "HotelProject",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/HotelProject",
       "RelativePath": "HotelProject.bundle.scp.css",
       "AssetKind": "All",
@@ -77,23 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-      "OriginalItemSpec": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css"
+      "OriginalItemSpec": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css"
     },
     {
-      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/app.css",
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/app.css",
       "SourceId": "HotelProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
-=======
-      "OriginalItemSpec": "/Users/sondrel.ness/HotelProject/Client/obj/Debug/net8.0/scopedcss/projectbundle/HotelProject.bundle.scp.css"
-    },
-    {
-      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/app.css",
-      "SourceId": "HotelProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/",
       "BasePath": "_content/HotelProject",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -109,17 +74,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "HotelProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
-=======
-      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/bootstrap/bootstrap.min.css",
-      "SourceId": "HotelProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/",
       "BasePath": "_content/HotelProject",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -135,17 +93,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "HotelProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
-=======
-      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/bootstrap/bootstrap.min.css.map",
-      "SourceId": "HotelProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/",
       "BasePath": "_content/HotelProject",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -161,17 +112,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-<<<<<<< HEAD:HotelProject.Client/obj/Debug/net8.0/staticwebassets.build.json
-      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/favicon.png",
+      "Identity": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/favicon.png",
       "SourceId": "HotelProject",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/HotelProject.Client/wwwroot/",
-=======
-      "Identity": "/Users/sondrel.ness/HotelProject/Client/wwwroot/favicon.png",
-      "SourceId": "HotelProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/sondrel.ness/HotelProject/Client/wwwroot/",
->>>>>>> refs/remotes/origin/main:Client/obj/Debug/net8.0/staticwebassets.build.json
+      "ContentRoot": "/Users/jobjornrokenesmyren/IT Batchelor/v24/dat154/oblig5/HotelProject/Client/wwwroot/",
       "BasePath": "_content/HotelProject",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

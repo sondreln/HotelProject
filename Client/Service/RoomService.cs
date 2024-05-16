@@ -1,4 +1,5 @@
 using HotelProject.Data;
+using HotelClassLibrary.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -63,7 +64,7 @@ namespace HotelProject.Service
 
         public async Task<bool> BookRoomAsync(int roomId, DateTime startDate, DateTime endDate)
         {
-            var newBooking = new Booking
+            var newBooking = new Bookings
             {
                 RoomId = roomId,
                 BookedFrom = startDate,

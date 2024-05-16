@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using HotelClassLibrary.Data;
 
 namespace HotelProject.Data{
     public class ApplicationDbContext : DbContext
@@ -15,10 +16,8 @@ namespace HotelProject.Data{
         {
             options.UseNpgsql(Configuration.GetConnectionString("WebApiDatabase"));
         }
-
-        public DbSet<Customer> Customer { get; set; } 
+ 
         public DbSet<Rooms> Rooms { get; set; }
-        public DbSet<HotelTask> HotelTask { get; set; }
-        public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Bookings> Bookings { get; set; }
     }
 }

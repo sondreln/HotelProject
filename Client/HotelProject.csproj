@@ -19,4 +19,7 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.2" />
   </ItemGroup>
 
+<ItemGroup>
+	  <ProjectReference Include="..\HotelClassLibrary\HotelClassLibrary.csproj" />
+	</ItemGroup>
 </Project>

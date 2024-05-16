@@ -11,6 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql("Host=ider-database.westeurope.cloudapp.azure.com; Database=h666949; Port=5432; Username=h666949; Password=pass")) ;
 
 builder.Services.AddScoped<TaskService>();
+builder.Services.AddScoped<BookingService>();
 
 var app = builder.Build();
 

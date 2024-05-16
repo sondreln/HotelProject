@@ -1,8 +1,57 @@
 ﻿@page
-@model PrivacyModel
+@model CheckerModel
 @{
     ViewData["Title"] = "Checkinator";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this to check inn and out the guests</p>
+<p>Use this to check in and out the guests</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Booking ID</th>
+            <th>Room ID</th>
+            <th>Booked From</th>
+            <th>Booked To</th>
+            <th>Checked In</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model.Bookings)
+        {
+            <tr>
+                <td>@booking.Id</td>
+                <td>@booking.RoomId</td>
+                <td>@booking.BookedFrom.ToShortDateString() @booking.BookedFrom.ToShortTimeString()</td>
+                <td>@booking.BookedTo.ToShortDateString() @booking.BookedTo.ToShortTimeString()
+                </td>
+                <td>
+                    @if (booking.CheckedIn)
+                    {
+                        <span>Yes</span>
+                    }
+                    else
+                    {
+                        <span>No</span>
+                    }
+                </td>
+                <td>
+                    @if (!booking.CheckedIn)
+                    {
+                        <form method="post" asp-page-handler="CheckIn" asp-route-id="@booking.Id">
+                            <button type="submit" class="btn btn-primary">Check In</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form method="post" asp-page-handler="CheckOut" asp-route-id="@booking.Id">
+                            <button type="submit" class="btn btn-danger">Check Out</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
